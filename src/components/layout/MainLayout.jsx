@@ -16,8 +16,8 @@ export default function MainLayout() {
       </div>
       <div className=' relative flex-1 flex flex-col  bg-[#F4F2EE] '>
         <div className='p-6 flex-1 '>
-          <div className=" cursor-pointer text-2xl text-black ">
-            <BsLayoutSidebar onClick={handleToggle} />
+          <div className=" cursor-pointer  text-black ">
+            <BsLayoutSidebar  onClick={handleToggle} />
           </div>
           <Outlet />
         </div>

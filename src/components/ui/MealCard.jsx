@@ -13,7 +13,7 @@ export default function MealCard({ meal }) {
                 />
             </div>
             <div className="px-6 text-center mt-25">
-                <h2 className="font-semibold text-lg truncate">{meal.strMeal}</h2>
+                <h3 className="font-semibold text-lg truncate">{meal.strMeal.length > 25 ? meal.strMeal.slice(0, 25) + "..." : meal.strMeal}</h3>
                 <p>{meal.strArea}</p>
                 <button onClick={() => navigate(`/recipeDetails/${meal.idMeal}`)} className=' cursor-pointer bg-green-500 rounded-full px-6 py-2 font-medium text-white hover:bg-green-600 hover:scale-110 transition-all duration-700 mt-4'>View Recipe</button>
 
