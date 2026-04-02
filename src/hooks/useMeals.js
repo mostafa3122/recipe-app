@@ -12,14 +12,5 @@ export default function useMeals() {
     staleTime: 8000,
   });
 }
-export const useRecipeById = (id) => {
-  return useQuery({
-    queryKey: keys.recipeById(id),
-    queryFn: async () => {
-      const { data } = await api.get(`/recipes/${id}`);
-      return data;
-    },
-    enabled: !!id,
-  });
-};
+
  
