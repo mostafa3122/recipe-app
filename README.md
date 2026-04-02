@@ -4,10 +4,10 @@ A modern and responsive **Recipe Web Application** built with **React.js** and *
 This app allows users to explore meals, filter recipes by categories, and view detailed meal information in a clean and user-friendly interface.
 
 ---
-<!-- 
+
 ## 🚀 Live Demo
 
-🔗 [View Live Demo](https://recipe-5j3x.vercel.app/) -->
+🔗 [View Live Demo](https://recipe-app3122.vercel.app/)
 
 ---
 
